@@ -15,7 +15,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Switch Gravity",
+                    "name": "Jump",
                     "type": "Button",
                     "id": "65f16de1-e3fe-4040-8b47-8cd25bda1d81",
                     "expectedControlType": "Button",
@@ -36,6 +36,15 @@
                     "name": "Rotate Gravity",
                     "type": "Button",
                     "id": "ffb35401-a53f-4019-9735-8b8c52d23925",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Invert Gravity",
+                    "type": "Button",
+                    "id": "6dcbb781-f449-44d0-9cda-26398066f39b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -72,17 +81,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Move",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "up",
-                    "id": "6b6ea4b1-8508-49d6-8abc-91f23071efd8",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Keyboard&Mouse",
                     "action": "Move",
                     "isComposite": false,
                     "isPartOfComposite": true
@@ -149,7 +147,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Gamepad",
-                    "action": "Switch Gravity",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -160,7 +158,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Keyboard&Mouse",
-                    "action": "Switch Gravity",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -171,7 +169,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
-                    "action": "Switch Gravity",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -182,7 +180,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Joystick",
-                    "action": "Switch Gravity",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -193,7 +191,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "XR",
-                    "action": "Switch Gravity",
+                    "action": "Jump",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -260,6 +258,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Rotate Gravity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f4a6abe5-da04-453c-b267-98258e6b74d7",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Invert Gravity",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
