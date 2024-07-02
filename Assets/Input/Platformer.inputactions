@@ -33,9 +33,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Rotate Gravity",
+                    "name": "Rotate Gravity Left",
                     "type": "Button",
                     "id": "ffb35401-a53f-4019-9735-8b8c52d23925",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Rotate Gravity Right",
+                    "type": "Button",
+                    "id": "ab4839eb-69e2-4f53-8ba3-42b85b9f1824",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -253,11 +262,11 @@
                 {
                     "name": "",
                     "id": "fc1f06ca-6db7-48eb-8b33-d9efb79a7b70",
-                    "path": "<Mouse>/rightButton",
+                    "path": "<Keyboard>/q",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Rotate Gravity",
+                    "action": "Rotate Gravity Left",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -269,6 +278,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "Invert Gravity",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35188611-01d5-4702-a430-cf5b03cf5126",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate Gravity Right",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
